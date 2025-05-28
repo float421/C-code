@@ -4,7 +4,6 @@ class Program
 {
   public static void Main (string[] args) 
   {
-    re:
     int x = 0, y = 0;
     ConsoleKeyInfo keyInfo = Console.ReadKey();
     bool state = true;
@@ -33,6 +32,5 @@ class Program
           break;
       }
     }
-    goto re;
   }
 }
